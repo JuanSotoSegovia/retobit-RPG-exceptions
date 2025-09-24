@@ -1,4 +1,4 @@
-public class CharacterAlreadyDeadException extends Exception {
+public class CharacterAlreadyDeadException extends RuntimeException {
     public CharacterAlreadyDeadException(String message) {
         super(message);
     }

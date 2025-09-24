@@ -1,4 +1,4 @@
-public class InsufficientManaException extends Exception {
+public class InsufficientManaException extends RuntimeException {
     public InsufficientManaException(String message) {
         super(message);
     }
